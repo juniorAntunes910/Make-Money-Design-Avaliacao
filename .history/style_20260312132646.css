@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Espaço para var*/
+
+
+
+
+/* Fim do Espaço para var */
+
+body {
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.quebra-mobile{
+    display: block;
+}
+
+
+
+
+
+
+.gradient {
+    background: linear-gradient(135deg, #3279E2 0%, #CACAEB 100%);
+}
+
+
+/* Inicio do Header */
+
+header {
+    padding-top: 1rem;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-title {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: #fff;
+
+}
+
+.header-box-menu i {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.7rem;
+    border-radius: 1px;
+}
+
+.header-box-menu {
+    width: 3rem;
+    height: 3rem;
+}
+
+/*Fim do Header*/
+
+
+/*Inicio do hero */
+
+
+#hero {
+    padding-top: 1.625rem;
+}
+
+#hero-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero-header-subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+    letter-spacing: 3px;
+    word-wrap: break-word;
+    color: #AAC4EA;
+}
+
+.hero-header-title{
+    margin-top: 1.125rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 4rem;
+    letter-spacing: -1px;
+    word-wrap: break-word;
+    color: #fff;
+}
+
+.hero-header-description{
+    margin-top: 0.8125rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+    letter-spacing: 0px;
+    opacity: 0.53;
+    word-wrap: break-word;
+    color: #fff;
+}
+
+#hero-btn{
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.375rem;
+    width: 100%;
+    height: 100%;
+    max-width: 170px;
+    height: 48px;
+    background-color: #111111;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+#hero-img-box{
+    margin-top: 3.375rem;
+}
+
+#hero-img-box-mobile{
+    display: block;
+}
+
+/*Fim do hero */
+
+/*Inicio do Main content */
+
+#main-content{
+    padding-top: 5rem;
+}
+
+#main-content-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.main-content-card-box{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+/*Fim do main content */
+
+
+
+
+/*Inicio do Service */
+
+
+
+
+
+
+/*Fim do Service */

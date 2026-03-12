@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Espaço para var*/
+
+
+
+
+/* Fim do Espaço para var */
+
+body {
+      font-family: "Libre Franklin", sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/*Header */
+/*
+IDs: 
+header-title
+----------------
+Classes: 
+header-box-menu
+*/ 
+
+.gradient{
+    background: linear-gradient(to right, #3279E2, #CACAEB);
+}
+
+
+
+/* Inicio do Header */
+
+header{
+    padding-top: 1rem;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-title{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: #fff;
+
+}
+
+.header-box-menu i{
+    color: #fff; 
+    border: 1px solid #fff;
+    padding: 0.7rem;
+    border-radius: 1px;
+}
+
+.header-box-menu{
+    width: 3rem;
+    height: 3rem;
+}
+
+/*Fim do Header*/
+
+
+/*Inicio do hero */
+
+/*
+IDs: 
+hero
+hero-header
+hero-btn
+hero-img-box
+hero-img-box-mobile
+------------------------
+Classes:  
+hero-header-subtitle
+hero-header-title
+hero-header-description
+*/
+
+#hero{
+    padding-top: 1.625rem;
+}
+
+#hero-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+/*Fim do hero */
