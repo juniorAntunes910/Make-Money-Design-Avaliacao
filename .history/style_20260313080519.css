@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700;900&display=swap');
+
+/*Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Variaveis */
+:root{
+    --color-primary: #3279E2;
+    --color-primary-light: #CACAEB;
+    --color-primary-dark: #062654;
+    --color-white: #fff;
+    --color-black: #111111;
+    --color-text-main: #333333;
+    --color-text-opacity: #333333BF;
+    --color-subtitle: #AAC4EA;
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700;900&display=swap');
+
+/*Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Variaveis */
+:root {
+    /*Cores*/
+    --color-primary: #3279E2;
+    --color-primary-light: #CACAEB;
+    --color-primary-dark: #062654;
+    --color-white: #fff;
+    --color-black: #111111;
+    --color-text-main: #333333;
+    --color-text-opacity: #333333BF;
+    --color-subtitle: #AAC4EA;
+    --color-bg-about: #ECF1FA;
+    --color-line: #D5D6E1;
+    --color-border-opacity: #3279E24D;
+    --color-white-opacity: #FFFFFF80;
+    --color-border-testi: #FFFFFF4B;
+
+    /*Pesos*/
+    --weight-light: 300;
+    --weight-bold: 700;
+    --weight-black: 900;
+
+    /*Radius*/
+    --radius-sm: 1rem;
+    --radius-md: 1.2rem;
+    --radius-lg: 1.5rem;
+    --radius-xl: 2.5rem;
+    --radius-circle: 5rem;
+}
+
+/*Globais */
+
+body {
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.container {
+    width: 90%;
+    mmargin: 0 auto;
+}
+
+.quebra-mobile {
+    display: block;
+}
+
+.gradient {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+}
+
+/* Header */
+
+header {
+    padding-top: 1rem;
+}
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-title{
+    font-size: 40px;
+    font-weight: var(--weight-black);
+    line-height: 48px;
+    color: var(--color-white)
+}
+
+.header-box-menu i {
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+    padding: 0.7rem;
+    border-radius: 1px;
+}
+
+.header-box-menu{
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Hero */
+
+#hero{
+    padding: 1.625rem;
+}
+
+#hero-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero-header-subtitle {
+    font-size: 1rem;
+    font-weight: var(--weight-light);
+    line-height: 2rem;
+    letter-spacing: 3px;
+    word-wrap: break-word;
+    color: var(--color-subtitle)
+}
+
+.hero-header-title {
+    margin-top: 1.125rem;
+    font-size: 3.5rem;
+    font-weight: var(--weight-black);
+    line-height: 4rem;
+    letter-spacing: -1px;
+    word-wrap: break-word;
+    color: var(--color-white)
+}
+
+.hero-header-description {
+    margin-top: 0.8125rem;
+    font-size: 1rem;
+    font-weight: var(--weight-light);
+    line-height: 2rem;
+    letter-spacing: 0px;
+    opacity: 0.53;
+    word-wrap: break-word;
+    color: var(--color-white);
+}
+
