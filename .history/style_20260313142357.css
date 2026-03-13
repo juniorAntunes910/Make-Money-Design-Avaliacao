@@ -1124,13 +1124,12 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 199px;
+    gap: 
 }
 
 #footer-links{
     display: flex;
     flex-direction: row;
-    gap: 240px;
 }
 
 #footer-links ul{
@@ -1138,12 +1137,6 @@ footer{
     flex-direction: column;
 }
 
-/* Copyright */
-
-.box-terms{
-    display: flex;
-    justify-content: center;
-}
 
 
 
